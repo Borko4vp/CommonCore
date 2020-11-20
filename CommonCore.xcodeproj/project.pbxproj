@@ -36,6 +36,10 @@
 		EEAD5E40256875FA004DE3CB /* Toastable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E3F256875F9004DE3CB /* Toastable.swift */; };
 		EEAD5E4625687673004DE3CB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E4525687673004DE3CB /* UIViewController+Extension.swift */; };
 		EEAD5E4C256876B2004DE3CB /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E4B256876B2004DE3CB /* Animatable.swift */; };
+		EEAD5E562568787E004DE3CB /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E532568787E004DE3CB /* LoadingController.swift */; };
+		EEAD5E572568787E004DE3CB /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E552568787E004DE3CB /* LoadingViewController.swift */; };
+		EEAD5E87256881FA004DE3CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E86256881FA004DE3CB /* BaseViewController.swift */; };
+		EEAD5E91256883D2004DE3CB /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E90256883D2004DE3CB /* BaseController.swift */; };
 		EEB8849C248811B40053CA4D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8849B248811B40053CA4D /* NetworkRequest.swift */; };
 		EEB8849E24881DFF0053CA4D /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8849D24881DFF0053CA4D /* NetworkSession.swift */; };
 		OBJ_24 /* CommonCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CommonCore.swift */; };
@@ -80,6 +84,11 @@
 		EEAD5E3F256875F9004DE3CB /* Toastable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toastable.swift; sourceTree = "<group>"; };
 		EEAD5E4525687673004DE3CB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		EEAD5E4B256876B2004DE3CB /* Animatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animatable.swift; sourceTree = "<group>"; };
+		EEAD5E532568787E004DE3CB /* LoadingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
+		EEAD5E542568787E004DE3CB /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		EEAD5E552568787E004DE3CB /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		EEAD5E86256881FA004DE3CB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EEAD5E90256883D2004DE3CB /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		EEB8849B248811B40053CA4D /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		EEB8849D24881DFF0053CA4D /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
 		OBJ_12 /* CommonCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCoreTests.swift; sourceTree = "<group>"; };
@@ -148,6 +157,7 @@
 		EEA0BF32255301FD00CA696E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				EEAD5E5125687866004DE3CB /* Views */,
 				EEA0BF332553020F00CA696E /* UI.swift */,
 				EEA0BF5625530A9E00CA696E /* Extensions */,
 				EEA0BF3D255302E400CA696E /* Protocols */,
@@ -176,6 +186,34 @@
 				EEAD5E4525687673004DE3CB /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EEAD5E5125687866004DE3CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD5E85256881E0004DE3CB /* BaseViewController */,
+				EEAD5E522568787E004DE3CB /* LoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEAD5E522568787E004DE3CB /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD5E532568787E004DE3CB /* LoadingController.swift */,
+				EEAD5E542568787E004DE3CB /* LoadingViewController.xib */,
+				EEAD5E552568787E004DE3CB /* LoadingViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		EEAD5E85256881E0004DE3CB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD5E86256881FA004DE3CB /* BaseViewController.swift */,
+				EEAD5E90256883D2004DE3CB /* BaseController.swift */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 		EEB8849F24881E550053CA4D /* Session */ = {
@@ -261,6 +299,8 @@
 			dependencies = (
 			);
 			name = CommonCore;
+			packageProductDependencies = (
+			);
 			productName = CommonCore;
 			productReference = "CommonCore::CommonCore::Product" /* CommonCore.framework */;
 			productType = "com.apple.product-type.framework";
@@ -313,6 +353,8 @@
 				en,
 			);
 			mainGroup = OBJ_5;
+			packageReferences = (
+			);
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -334,8 +376,11 @@
 				OBJ_24 /* CommonCore.swift in Sources */,
 				EEA0BF342553020F00CA696E /* UI.swift in Sources */,
 				EE75940124856262003C194C /* CoreNetworkingError.swift in Sources */,
+				EEAD5E562568787E004DE3CB /* LoadingController.swift in Sources */,
+				EEAD5E87256881FA004DE3CB /* BaseViewController.swift in Sources */,
 				EEAD5E4625687673004DE3CB /* UIViewController+Extension.swift in Sources */,
 				EEA0BF3F2553030200CA696E /* Alertable.swift in Sources */,
+				EEAD5E572568787E004DE3CB /* LoadingViewController.swift in Sources */,
 				EE7593FB248545B3003C194C /* Networking.swift in Sources */,
 				EEA0BF5825530AD200CA696E /* UIAlertController+Extension.swift in Sources */,
 				EE7594052485795E003C194C /* URLNetworkSession.swift in Sources */,
@@ -347,6 +392,7 @@
 				EE75940724857F37003C194C /* Router.swift in Sources */,
 				EEA0BFC0255579BA00CA696E /* KeyboardPresentable.swift in Sources */,
 				EE7593FF2485486A003C194C /* Encodable+Extension.swift in Sources */,
+				EEAD5E91256883D2004DE3CB /* BaseController.swift in Sources */,
 				EEA0BFC625557C2300CA696E /* DocumentPickable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
