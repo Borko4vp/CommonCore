@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"CommonCore::CommonCorePackageTests::ProductTarget" /* CommonCorePackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXAggregateTarget "CommonCorePackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_36 /* PBXTargetDependency */,
+			);
+			name = CommonCorePackageTests;
+			productName = CommonCorePackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		EE7593FB248545B3003C194C /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7593FA248545B3003C194C /* Networking.swift */; };
+		EE7593FF2485486A003C194C /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7593FE2485486A003C194C /* Encodable+Extension.swift */; };
+		EE75940124856262003C194C /* CoreNetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75940024856262003C194C /* CoreNetworkingError.swift */; };
+		EE7594052485795E003C194C /* URLNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7594042485795E003C194C /* URLNetworkSession.swift */; };
+		EE75940724857F37003C194C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE75940624857F37003C194C /* Router.swift */; };
+		EEA0BF342553020F00CA696E /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BF332553020F00CA696E /* UI.swift */; };
+		EEA0BF3F2553030200CA696E /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BF3E2553030200CA696E /* Alertable.swift */; };
+		EEA0BF49255303BD00CA696E /* PickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BF48255303BD00CA696E /* PickerItem.swift */; };
+		EEA0BF5825530AD200CA696E /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BF5725530AD200CA696E /* UIAlertController+Extension.swift */; };
+		EEA0BFC0255579BA00CA696E /* KeyboardPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BFBF255579BA00CA696E /* KeyboardPresentable.swift */; };
+		EEA0BFC625557C2300CA696E /* DocumentPickable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BFC525557C2300CA696E /* DocumentPickable.swift */; };
+		EEA0BFCC25557C5000CA696E /* ImagePickable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BFCB25557C5000CA696E /* ImagePickable.swift */; };
+		EEB8849C248811B40053CA4D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8849B248811B40053CA4D /* NetworkRequest.swift */; };
+		EEB8849E24881DFF0053CA4D /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8849D24881DFF0053CA4D /* NetworkSession.swift */; };
+		OBJ_24 /* CommonCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CommonCore.swift */; };
+		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_42 /* CommonCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CommonCoreTests.swift */; };
+		OBJ_43 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_45 /* CommonCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CommonCore::CommonCore::Product" /* CommonCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7593F824853E7C003C194C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CommonCore::CommonCore";
+			remoteInfo = CommonCore;
+		};
+		EE7593F924853E7D003C194C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "CommonCore::CommonCoreTests";
+			remoteInfo = CommonCoreTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"CommonCore::CommonCore::Product" /* CommonCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CommonCore::CommonCoreTests::Product" /* CommonCoreTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CommonCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7593FA248545B3003C194C /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		EE7593FE2485486A003C194C /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		EE75940024856262003C194C /* CoreNetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNetworkingError.swift; sourceTree = "<group>"; };
+		EE7594042485795E003C194C /* URLNetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLNetworkSession.swift; sourceTree = "<group>"; };
+		EE75940624857F37003C194C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EEA0BF332553020F00CA696E /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		EEA0BF3E2553030200CA696E /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		EEA0BF48255303BD00CA696E /* PickerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerItem.swift; sourceTree = "<group>"; };
+		EEA0BF5725530AD200CA696E /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		EEA0BFBF255579BA00CA696E /* KeyboardPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardPresentable.swift; sourceTree = "<group>"; };
+		EEA0BFC525557C2300CA696E /* DocumentPickable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickable.swift; sourceTree = "<group>"; };
+		EEA0BFCB25557C5000CA696E /* ImagePickable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickable.swift; sourceTree = "<group>"; };
+		EEB8849B248811B40053CA4D /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		EEB8849D24881DFF0053CA4D /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CommonCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCoreTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* CommonCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_45 /* CommonCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7593FC24854637003C194C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8849F24881E550053CA4D /* Session */,
+				EE7593FD2485484E003C194C /* Extensions */,
+				EE7593FA248545B3003C194C /* Networking.swift */,
+				EEB8849B248811B40053CA4D /* NetworkRequest.swift */,
+				EE75940024856262003C194C /* CoreNetworkingError.swift */,
+				EE75940624857F37003C194C /* Router.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EE7593FD2485484E003C194C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE7593FE2485486A003C194C /* Encodable+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE75940224857934003C194C /* URLNetworkSession */ = {
+			isa = PBXGroup;
+			children = (
+				EE7594042485795E003C194C /* URLNetworkSession.swift */,
+			);
+			path = URLNetworkSession;
+			sourceTree = "<group>";
+		};
+		EE75940324857940003C194C /* AlamofireNetworkSession */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AlamofireNetworkSession;
+			sourceTree = "<group>";
+		};
+		EEA0BF32255301FD00CA696E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0BF332553020F00CA696E /* UI.swift */,
+				EEA0BF5625530A9E00CA696E /* Extensions */,
+				EEA0BF3D255302E400CA696E /* Protocols */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EEA0BF3D255302E400CA696E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0BF3E2553030200CA696E /* Alertable.swift */,
+				EEA0BF48255303BD00CA696E /* PickerItem.swift */,
+				EEA0BFBF255579BA00CA696E /* KeyboardPresentable.swift */,
+				EEA0BFC525557C2300CA696E /* DocumentPickable.swift */,
+				EEA0BFCB25557C5000CA696E /* ImagePickable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EEA0BF5625530A9E00CA696E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0BF5725530AD200CA696E /* UIAlertController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EEB8849F24881E550053CA4D /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8849D24881DFF0053CA4D /* NetworkSession.swift */,
+				EE75940224857934003C194C /* URLNetworkSession */,
+				EE75940324857940003C194C /* AlamofireNetworkSession */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* CommonCoreTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* CommonCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* CommonCoreTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = CommonCoreTests;
+			path = Tests/CommonCoreTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"CommonCore::CommonCoreTests::Product" /* CommonCoreTests.xctest */,
+				"CommonCore::CommonCore::Product" /* CommonCore.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				OBJ_17 /* LICENSE */,
+				OBJ_18 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EEA0BF32255301FD00CA696E /* UI */,
+				EE7593FC24854637003C194C /* Networking */,
+				OBJ_8 /* CommonCore */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* CommonCore */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* CommonCore.swift */,
+			);
+			name = CommonCore;
+			path = Sources/CommonCore;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"CommonCore::CommonCore" /* CommonCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_20 /* Build configuration list for PBXNativeTarget "CommonCore" */;
+			buildPhases = (
+				OBJ_23 /* Sources */,
+				OBJ_25 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCore;
+			productName = CommonCore;
+			productReference = "CommonCore::CommonCore::Product" /* CommonCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"CommonCore::CommonCoreTests" /* CommonCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "CommonCoreTests" */;
+			buildPhases = (
+				OBJ_41 /* Sources */,
+				OBJ_44 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_46 /* PBXTargetDependency */,
+			);
+			name = CommonCoreTests;
+			productName = CommonCoreTests;
+			productReference = "CommonCore::CommonCoreTests::Product" /* CommonCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CommonCore::SwiftPMPackageDescription" /* CommonCorePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "CommonCorePackageDescription" */;
+			buildPhases = (
+				OBJ_30 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCorePackageDescription;
+			productName = CommonCorePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CommonCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"CommonCore::CommonCore" /* CommonCore */,
+				"CommonCore::SwiftPMPackageDescription" /* CommonCorePackageDescription */,
+				"CommonCore::CommonCorePackageTests::ProductTarget" /* CommonCorePackageTests */,
+				"CommonCore::CommonCoreTests" /* CommonCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				EEB8849C248811B40053CA4D /* NetworkRequest.swift in Sources */,
+				OBJ_24 /* CommonCore.swift in Sources */,
+				EEA0BF342553020F00CA696E /* UI.swift in Sources */,
+				EE75940124856262003C194C /* CoreNetworkingError.swift in Sources */,
+				EEA0BF3F2553030200CA696E /* Alertable.swift in Sources */,
+				EE7593FB248545B3003C194C /* Networking.swift in Sources */,
+				EEA0BF5825530AD200CA696E /* UIAlertController+Extension.swift in Sources */,
+				EE7594052485795E003C194C /* URLNetworkSession.swift in Sources */,
+				EEB8849E24881DFF0053CA4D /* NetworkSession.swift in Sources */,
+				EEA0BFCC25557C5000CA696E /* ImagePickable.swift in Sources */,
+				EEA0BF49255303BD00CA696E /* PickerItem.swift in Sources */,
+				EE75940724857F37003C194C /* Router.swift in Sources */,
+				EEA0BFC0255579BA00CA696E /* KeyboardPresentable.swift in Sources */,
+				EE7593FF2485486A003C194C /* Encodable+Extension.swift in Sources */,
+				EEA0BFC625557C2300CA696E /* DocumentPickable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_31 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_42 /* CommonCoreTests.swift in Sources */,
+				OBJ_43 /* XCTestManifests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CommonCore::CommonCoreTests" /* CommonCoreTests */;
+			targetProxy = EE7593F924853E7D003C194C /* PBXContainerItemProxy */;
+		};
+		OBJ_46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "CommonCore::CommonCore" /* CommonCore */;
+			targetProxy = EE7593F824853E7C003C194C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommonCore.xcodeproj/CommonCore_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommonCore;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CommonCore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommonCore.xcodeproj/CommonCore_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommonCore;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CommonCore;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommonCore.xcodeproj/CommonCoreTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CommonCoreTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommonCore.xcodeproj/CommonCoreTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = CommonCoreTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "CommonCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_20 /* Build configuration list for PBXNativeTarget "CommonCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_21 /* Debug */,
+				OBJ_22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_27 /* Build configuration list for PBXNativeTarget "CommonCorePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_28 /* Debug */,
+				OBJ_29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_33 /* Build configuration list for PBXAggregateTarget "CommonCorePackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_34 /* Debug */,
+				OBJ_35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_38 /* Build configuration list for PBXNativeTarget "CommonCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_39 /* Debug */,
+				OBJ_40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
