@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension CommonCore {
+extension Core {
     public struct Networking {
         /// Responsible for handling all networking calls
         /// - Warning:   Must create before using any public API
@@ -92,7 +92,7 @@ extension CommonCore {
     }
 }
 
-extension CommonCore.Networking.Manager {
+extension Core.Networking.Manager {
     private func handle(networkSessionError error: NetworkSessionError, with response: Data?) -> CoreNetworkingError<ServerErrorDTO> {
         var errorPayload: ServerErrorDTO?
         if let response = response {
@@ -107,7 +107,7 @@ extension CommonCore.Networking.Manager {
     }
 }
 
-extension CommonCore.Networking {
+extension Core.Networking {
     public enum NetworkSessionType {
         case urlSession
         case alamofire

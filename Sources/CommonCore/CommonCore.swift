@@ -1,3 +1,3 @@
 
-public struct CommonCore {
+public struct Core {
 }

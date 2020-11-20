@@ -11,7 +11,7 @@ public protocol NetworkRequest {
     var path: URL? { get }
     var parameters: [String: Any]? { get }
     var headers: [String: String]? { get }
-    var method: CommonCore.Networking.HttpMethod {  get }
-    var encoding: CommonCore.Networking.Encoding? { get }
+    var method: Core.Networking.HttpMethod {  get }
+    var encoding: Core.Networking.Encoding? { get }
 }
 

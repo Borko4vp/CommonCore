@@ -9,7 +9,7 @@
 import Lottie
 import UIKit
 
-extension CommonCore.UI {
+extension Core.UI {
     class LoadingViewController: UIViewController {
         static public var animationFileName: String?
         static public var finishAnimationFileName: String?
@@ -30,7 +30,7 @@ extension CommonCore.UI {
         }
         
         private func setupUI() {
-            guard let animationFileName = CommonCore.UI.LoadingViewController.animationFileName else {
+            guard let animationFileName = Core.UI.LoadingViewController.animationFileName else {
                 fatalError("Should configure loading lotie animation file name")
             }
             animationView = LoadingViewController.createAnimatioView(with: animationFileName)
@@ -58,7 +58,7 @@ extension CommonCore.UI {
         }
         
         private func showFinishAnimation(completion: @escaping () -> ()) {
-            guard let animationFileName = CommonCore.UI.LoadingViewController.finishAnimationFileName else {
+            guard let animationFileName = Core.UI.LoadingViewController.finishAnimationFileName else {
                 fatalError("Should configure finish lotie animation file name")
             }
             animationView?.removeFromSuperview()

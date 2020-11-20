@@ -9,6 +9,6 @@ import Foundation
 
 protocol NetworkRouter {
     var path: URL { get }
-    var method: CommonCore.Networking.HttpMethod { get }
+    var method: Core.Networking.HttpMethod { get }
     var parameters: Codable { get}
 }

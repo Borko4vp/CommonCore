@@ -7,6 +7,6 @@
 
 import Foundation
 
-extension CommonCore {
+extension Core {
     public struct UI {}
 }

@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-extension CommonCore.UI {
+extension Core.UI {
     open class BaseViewController: UIViewController, LoadingController, KeyboardPresentable, BaseController {
         
         var interactivePopGestureRecognizerEnabled: Bool {
