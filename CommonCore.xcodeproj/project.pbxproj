@@ -33,6 +33,9 @@
 		EEA0BFC0255579BA00CA696E /* KeyboardPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BFBF255579BA00CA696E /* KeyboardPresentable.swift */; };
 		EEA0BFC625557C2300CA696E /* DocumentPickable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BFC525557C2300CA696E /* DocumentPickable.swift */; };
 		EEA0BFCC25557C5000CA696E /* ImagePickable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA0BFCB25557C5000CA696E /* ImagePickable.swift */; };
+		EEAD5E40256875FA004DE3CB /* Toastable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E3F256875F9004DE3CB /* Toastable.swift */; };
+		EEAD5E4625687673004DE3CB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E4525687673004DE3CB /* UIViewController+Extension.swift */; };
+		EEAD5E4C256876B2004DE3CB /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5E4B256876B2004DE3CB /* Animatable.swift */; };
 		EEB8849C248811B40053CA4D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8849B248811B40053CA4D /* NetworkRequest.swift */; };
 		EEB8849E24881DFF0053CA4D /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB8849D24881DFF0053CA4D /* NetworkSession.swift */; };
 		OBJ_24 /* CommonCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CommonCore.swift */; };
@@ -74,6 +77,9 @@
 		EEA0BFBF255579BA00CA696E /* KeyboardPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardPresentable.swift; sourceTree = "<group>"; };
 		EEA0BFC525557C2300CA696E /* DocumentPickable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickable.swift; sourceTree = "<group>"; };
 		EEA0BFCB25557C5000CA696E /* ImagePickable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickable.swift; sourceTree = "<group>"; };
+		EEAD5E3F256875F9004DE3CB /* Toastable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toastable.swift; sourceTree = "<group>"; };
+		EEAD5E4525687673004DE3CB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EEAD5E4B256876B2004DE3CB /* Animatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animatable.swift; sourceTree = "<group>"; };
 		EEB8849B248811B40053CA4D /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		EEB8849D24881DFF0053CA4D /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
 		OBJ_12 /* CommonCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCoreTests.swift; sourceTree = "<group>"; };
@@ -157,6 +163,8 @@
 				EEA0BFBF255579BA00CA696E /* KeyboardPresentable.swift */,
 				EEA0BFC525557C2300CA696E /* DocumentPickable.swift */,
 				EEA0BFCB25557C5000CA696E /* ImagePickable.swift */,
+				EEAD5E3F256875F9004DE3CB /* Toastable.swift */,
+				EEAD5E4B256876B2004DE3CB /* Animatable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				EEA0BF5725530AD200CA696E /* UIAlertController+Extension.swift */,
+				EEAD5E4525687673004DE3CB /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -325,13 +334,16 @@
 				OBJ_24 /* CommonCore.swift in Sources */,
 				EEA0BF342553020F00CA696E /* UI.swift in Sources */,
 				EE75940124856262003C194C /* CoreNetworkingError.swift in Sources */,
+				EEAD5E4625687673004DE3CB /* UIViewController+Extension.swift in Sources */,
 				EEA0BF3F2553030200CA696E /* Alertable.swift in Sources */,
 				EE7593FB248545B3003C194C /* Networking.swift in Sources */,
 				EEA0BF5825530AD200CA696E /* UIAlertController+Extension.swift in Sources */,
 				EE7594052485795E003C194C /* URLNetworkSession.swift in Sources */,
 				EEB8849E24881DFF0053CA4D /* NetworkSession.swift in Sources */,
+				EEAD5E40256875FA004DE3CB /* Toastable.swift in Sources */,
 				EEA0BFCC25557C5000CA696E /* ImagePickable.swift in Sources */,
 				EEA0BF49255303BD00CA696E /* PickerItem.swift in Sources */,
+				EEAD5E4C256876B2004DE3CB /* Animatable.swift in Sources */,
 				EE75940724857F37003C194C /* Router.swift in Sources */,
 				EEA0BFC0255579BA00CA696E /* KeyboardPresentable.swift in Sources */,
 				EE7593FF2485486A003C194C /* Encodable+Extension.swift in Sources */,
