@@ -8,9 +8,8 @@
 import Foundation
 import UIKit
 
-
-public extension CommonCore.UI {
-    class BaseViewController: UIViewController, LoadingController, KeyboardPresentable, BaseController {
+extension CommonCore.UI {
+    open class BaseViewController: UIViewController, LoadingController, KeyboardPresentable, BaseController {
         
         var interactivePopGestureRecognizerEnabled: Bool {
             return true
@@ -20,25 +19,25 @@ public extension CommonCore.UI {
         var keyboardPresenter: KeyboardPresenter!
         
         
-        public override func viewDidLoad() {
+        open override func viewDidLoad() {
             super.viewDidLoad()
             
             configureKeyboardPresenter()
         }
         
-        public override func viewWillAppear(_ animated: Bool) {
+        open override func viewWillAppear(_ animated: Bool) {
             super.viewWillAppear(animated)
             
             keyboardPresenter.registerForKeyboardNotifications()
         }
         
-        public override func viewDidAppear(_ animated: Bool) {
+        open override func viewDidAppear(_ animated: Bool) {
             super.viewDidAppear(animated)
             
             navigationController?.interactivePopGestureRecognizer?.isEnabled = interactivePopGestureRecognizerEnabled
         }
         
-        public override func viewWillDisappear(_ animated: Bool) {
+        open override func viewWillDisappear(_ animated: Bool) {
             super.viewWillDisappear(animated)
             
             keyboardPresenter.unregisterKeyboardNotifications()
