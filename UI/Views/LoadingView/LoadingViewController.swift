@@ -16,6 +16,7 @@ extension CommonCore.UI {
         
         @IBOutlet weak private var animationViewPlaceholder: UIView!
         private var animationView: AnimationView?
+        
         override func viewDidLoad() {
             super.viewDidLoad()
 

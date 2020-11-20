@@ -8,5 +8,5 @@
 import Foundation
 
 extension CommonCore {
-    struct UI {}
+    public struct UI {}
 }
