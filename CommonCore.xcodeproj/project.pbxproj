@@ -159,8 +159,8 @@
 		EEA0BF32255301FD00CA696E /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				EEAD5E5125687866004DE3CB /* Views */,
 				EEA0BF332553020F00CA696E /* UI.swift */,
+				EEAD5E5125687866004DE3CB /* Views */,
 				EEA0BF5625530A9E00CA696E /* Extensions */,
 				EEA0BF3D255302E400CA696E /* Protocols */,
 			);
@@ -278,9 +278,9 @@
 		OBJ_8 /* CommonCore */ = {
 			isa = PBXGroup;
 			children = (
+				OBJ_9 /* CommonCore.swift */,
 				EE7593FC24854637003C194C /* Networking */,
 				EEA0BF32255301FD00CA696E /* UI */,
-				OBJ_9 /* CommonCore.swift */,
 			);
 			name = CommonCore;
 			path = Sources/CommonCore;
